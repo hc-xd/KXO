@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<configuration>
+  <appSettings>
+    <add key="DPSOperateModel" value="Region" />
+    <add key="DPSLight" value="2to2" />
+    <add key="DPSAddBox" value="1" />
+    <add key="DPSPending" value="6928980613680" />
+    <add key="DPSLocator" value="1" />
+    <add key="appkey" value="aiyun2test" />
+    <add key="appsecret" value="12345" />
+    <add key="sid" value="apidev2" />
+    <add key="URL" value="http://121.41.177.115/openapi2/pick_order_query.php" />
+    <add key="FC01" value="0005" />
+    <add key="FC02" value="0009" />
+    <add key="FC03" value="0017" />
+    <add key="DASCount" value="0" />
+    <add key="AddBox" value="0" />
+    <add key="Pending" value="88888888" />
+    <add key="Locator" value="1" />
+    <add key="box_no_1" value="1" />
+    <add key="box_no_2" value="1" />
+    <add key="box_no_3" value="1" />
+    <add key="box_no_4" value="1" />
+    <add key="DASWaveHead" value="C" />
+    <add key="GiftWay" value="2" />
+    <add key="DASPending" value="88888888" />
+    <add key="DASWait" value="N" />
+    <add key="WallNo" value="1" />
+    <add key="PrinterBoxIn" value="A1" />
+    <add key="PrinterBoxOut" value="A2" />
+    <add key="ServerAddress" value="server=.;database=KXO;uid=sa;pwd=123" />
+    <add key="GetWave" value="http://58.246.88.90:7002/api/edi/wms/in?api=sendDASData" />
+    <add key="GetItemCode" value="http://58.246.88.90:7002/api/edi/wms/in?api=findSerialNumber" />
+    <add key="isWork" value="e" />
+  </appSettings>
+</configuration>

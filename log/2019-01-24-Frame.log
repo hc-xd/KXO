@@ -1,0 +1,52 @@
+2019/1/24 17:25:47 :30天前的行表数据删除成功
+2019/1/24 17:25:47 :30天前的头表数据删除成功
+2019/1/24 17:25:51 :【主控】[线程初始化完成.]
+2019/1/24 17:25:51 :控制器：192.168.101.252无法ping通，请检查网络!
+2019/1/24 17:26:15 :查询成功。
+2019/1/24 17:26:19 :开始删除数据重新导入
+2019/1/24 17:26:19 :数据导入失败！System.InvalidOperationException: 无法访问目标表“T_TAG_LOCATOR_DAS”。 ---> System.Data.SqlClient.SqlException: 对象名 'T_TAG_LOCATOR_DAS' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlBulkCopy.RunParser(BulkCopySimpleResultSet bulkCopyHandler)
+   在 System.Data.SqlClient.SqlBulkCopy.CreateAndExecuteInitialQueryAsync(BulkCopySimpleResultSet& result)
+   在 System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalRestAsync(CancellationToken cts, TaskCompletionSource`1 source)
+   在 System.Data.SqlClient.SqlBulkCopy.WriteToServerInternalAsync(CancellationToken ctoken)
+   在 System.Data.SqlClient.SqlBulkCopy.WriteRowSourceToServerAsync(Int32 columnCount, CancellationToken ctoken)
+   在 System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table, DataRowState rowState)
+   在 System.Data.SqlClient.SqlBulkCopy.WriteToServer(DataTable table)
+   在 SqlBulkCopy_dll.Class1.ff_SqlBulkCopy(String ConnectionString, String DataTableName, DataTable dt, String& msg) 位置 c:\Users\hc\Desktop\WCF_Test\Wcf_Service\sqlbulkcopy_dll\SqlBulkCopy_dll\SqlBulkCopy_dll\Class1.cs:行号 39
+2019/1/24 17:26:49 :[frmCreateDataTable][已经关闭!]
+2019/1/24 17:27:17 :查询成功。
+2019/1/24 17:28:38 :30天前的行表数据删除成功
+2019/1/24 17:28:38 :30天前的头表数据删除成功
+2019/1/24 17:28:44 :【主控】[线程初始化完成.]
+2019/1/24 17:28:44 :控制器：无法ping通，请检查网络!
+2019/1/24 17:28:44 :控制器：172.16.66.195无法ping通，请检查网络!
+2019/1/24 17:28:44 :控制器：172.16.66.196无法ping通，请检查网络!
+2019/1/24 17:28:54 :查询成功。
+2019/1/24 17:28:56 :开始删除数据重新导入
+2019/1/24 17:28:56 :以前的数据删除成功，开始重新导入基础数据
+2019/1/24 17:28:56 :数据导入成功！
+2019/1/24 17:29:01 :[frmCreateDataTable][已经关闭!]
+2019/1/24 17:47:17 :30天前的行表数据删除成功
+2019/1/24 17:47:17 :30天前的头表数据删除成功
+2019/1/24 17:47:23 :【主控】[线程初始化完成.]
+2019/1/24 17:47:23 :控制器：无法ping通，请检查网络!
+2019/1/24 17:47:23 :控制器：172.16.66.195无法ping通，请检查网络!
+2019/1/24 17:47:23 :控制器：172.16.66.196无法ping通，请检查网络!
+2019/1/24 17:47:34 :[frmCreateDataTable][已经关闭!]
+2019/1/24 17:47:36 :[frmCreateDataTable.dll][已经成功加载!]
+2019/1/24 17:47:48 :异常:[错误代码:BL0010][异常:[错误代码:DA001218][数据库中已存在名为 'T_TAG_LOCATOR' 的对象。]]
+2019/1/24 17:47:48 :【T_LOG】创建成功
+2019/1/24 17:47:49 :异常:[错误代码:BL0050][异常:[错误代码:DA001218][数据库中已存在名为 'T_PICK_HEAD' 的对象。]]
+2019/1/24 17:47:50 :异常:[错误代码:BL0050][异常:[错误代码:DA001218][数据库中已存在名为 'T_PICK_LINE' 的对象。]]
+2019/1/24 17:47:51 :【T_DAS_HEAD】创建成功
+2019/1/24 17:47:51 :【T_DAS_LINE】创建成功
+2019/1/24 17:47:52 :【T_DAS_DETAIL】创建成功
+2019/1/24 17:47:52 :【T_Base_Item】创建成功
+2019/1/24 17:47:59 :[frmCreateDataTable][已经关闭!]
